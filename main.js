@@ -39,8 +39,10 @@ function solveSecretFromJson(data) {
     return c;
 }
 
-// Reading JSON from file (testcase.json)
-fs.readFile('testcase.json', 'utf8', (err, jsonData) => {
+// Allow the user to specify the file name via command-line arguments
+const fileName = process.argv[2] || 'testcase.json';
+
+fs.readFile(fileName, 'utf8', (err, jsonData) => {
     if (err) {
         console.error(err);
         return;
