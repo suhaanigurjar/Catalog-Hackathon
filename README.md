@@ -29,7 +29,7 @@ This repository contains a Node.js script that solves a secret sharing problem u
 
    # Run the Node.js script
    node main.js testcase.json
-   mention the testcase you want to test i.e testcase.json or testcase2.json
+   #mention the testcase you want to test i.e testcase.json or testcase2.json
    
 4. **View Output**:
    After running the script, the output will be displayed in the terminal/command prompt. Ensure that the `testcase.json` and other necessary files are in the same directory as `main.js`.
