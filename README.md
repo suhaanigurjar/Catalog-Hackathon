@@ -29,4 +29,7 @@ This repository contains a Node.js script that solves a secret sharing problem u
 
    # Run the Node.js script
    node main_code.js
+   
+4. **View Output**:
+   After running the script, the output will be displayed in the terminal/command prompt. Ensure that the `testcase.json` and other necessary files are in the same directory as `main_code.js`.
 
